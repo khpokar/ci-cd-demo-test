@@ -4,7 +4,6 @@ phases:
     commands: 
       - npm install -g npm
       - npm install serverless
-      - npm install
 artifacts:
   files:
-    - '**/*'
+  - '**/*'
