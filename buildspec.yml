@@ -1,9 +1,11 @@
 version: 0.2
+
 phases:
-  install:
-    commands: 
-      - npm install -g npm
-      - npm install serverless
+  build:
+    commands:
+      - echo Entered the build phase...
+      - echo Build started on `date`
+
 artifacts:
-  files:
-  - '**/*'
+   files:
+     - '**/*'
