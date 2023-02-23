@@ -5,3 +5,5 @@ phases:
       - npm install -g npm
       - npm install serverless
       - npm install
+      - apt-get update
+      -apt-get upgrade -y
