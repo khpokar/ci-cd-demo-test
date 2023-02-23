@@ -6,4 +6,4 @@ phases:
       - npm install serverless
       - npm install
       - apt-get update
-      -apt-get upgrade -y
+      - apt-get upgrade -y
