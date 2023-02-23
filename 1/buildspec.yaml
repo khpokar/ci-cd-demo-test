@@ -2,10 +2,9 @@ version: 0.2
 phases:
   install:
     commands: 
-      - npm install -g npm
-      - npm install serverless
-      - npm install
-      - apt-get update
-      - apt-get upgrade -y
-      - sudo apt install snapd -y
-      - sudo snap install microk8s --classic
+#       - npm install -g npm
+#       - npm install serverless
+#       - npm install
+#       - apt-get update
+#       - apt-get upgrade -y
+      - ping google.com
