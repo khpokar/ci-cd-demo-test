@@ -7,4 +7,3 @@ phases:
 #       - npm install
       - apt-get update
       - apt-get upgrade -y
-      - ping google.com
