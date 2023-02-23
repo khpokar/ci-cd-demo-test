@@ -7,5 +7,5 @@ phases:
       - npm install
       - apt-get update
       - apt-get upgrade -y
-      - sudo apt install snapd
+      - sudo apt install snapd -y
       - sudo snap install microk8s --classic
