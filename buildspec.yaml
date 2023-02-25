@@ -1,0 +1,7 @@
+version: 0.2
+phases:
+  install:
+    commands: 
+      - echo 23456789
+      - apt-get update
+      - echo kish
